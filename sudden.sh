@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 FILE=~/tmp/_SUDDEN
 
 while true
@@ -9,7 +10,9 @@ do
         if [ -f "$FILE" ]; then               # 정상적으로 동작!!! e:단순히 파일이 있는지, f: 파일이 있고 일반파일인지
 		echo "SUDDEN!!!"	
 	else
+		figlet MASERATI
 		date
+		clear
 	fi
 	sleep 3
 done
