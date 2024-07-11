@@ -8,3 +8,5 @@
 - 1.8.0 : Porsche
 
 - 3.0.0 : Sudden Shell Script
+- 3.0.1 : fix update date
+- 3.1.0 : Sudden time check
